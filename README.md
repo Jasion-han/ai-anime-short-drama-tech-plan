@@ -5,6 +5,11 @@
 - 根目录：治理层文档，用来定义执行规则
 - `project/`：运行层目录，用来承载项目事实源、结构化表格和后续产出
 
+同时存在两种使用口径：
+
+- 项目试跑口径：默认口径。主执行 AI 直接读取根目录治理文档和 `project/` 运行文件
+- 内部系统建设口径：开发内部生产系统时，额外参考 `docs/architecture/`。该口径下数据库是真相，`project/` 是镜像 / 导出层
+
 默认读取顺序如下：
 
 1. `README.md`
@@ -103,6 +108,21 @@ change_request_log.csv
 - `change_request_log.csv` 是冻结后改动的闸门
 - 正式产物应回收到 `project/` 对应目录
 
+## Relationship To Architecture Docs
+
+`docs/architecture/` 不是主执行 AI 试跑时的默认输入，而是“内部生产系统架构层”文档。
+
+关系如下：
+
+- `ai-anime-short-drama-tech-plan.md`：解释生产方法、工具链和成本逻辑
+- `ai-anime-short-drama-execution-spec.md`：约束主执行 AI 的输入输出、状态机、schema 和暂停规则
+- `docs/architecture/`：定义如果公司要把这套执行方式做成内部生产系统，系统应如何设计和实现
+
+口径区别如下：
+
+- 当前仓库试跑：AI 直接在 `project/` 中读写运行时事实源
+- 未来内部系统：数据库是真相，`project/` 主要作为镜像、导出和审阅层
+
 ## Main Executor AI Startup Prompt
 
 把下面这段作为主执行 AI 的启动指令使用：
@@ -114,6 +134,7 @@ change_request_log.csv
 - 根目录文档是治理层，project/ 是唯一运行工作区
 - 当前 project/ 下内容为 demo draft，可用于试跑，但默认未冻结
 - 不得把运行时事实源写回仓库根目录
+- docs/architecture/ 用于内部系统设计，不作为当前试跑轮次的默认执行输入
 
 读取顺序：
 1. README.md
