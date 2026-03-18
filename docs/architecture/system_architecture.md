@@ -92,32 +92,14 @@
 
 ## 5. 主数据模型
 
-### 5.1 项目实体
+主数据模型的字段级定义、关系约束、索引建议与镜像映射，统一以 `data_model.md` 为准。
 
-- `projects`
-- `project_configs`
-- `project_members`
+核心实体范围如下：
 
-### 5.2 内容实体
-
-- `scripts`
-- `scenes`
-- `shots`
-- `dialogue_lines`
-
-### 5.3 生产实体
-
-- `takes`
-- `assets`
-- `tasks`
-- `runs`
-
-### 5.4 治理实体
-
-- `approvals`
-- `change_requests`
-- `audit_logs`
-- `budget_events`
+- 项目域：`projects`、`project_configs`、`project_members`
+- 内容域：`scripts`、`scenes`、`shots`、`dialogue_lines`
+- 生产域：`takes`、`assets`、`tasks`、`runs`
+- 治理域：`approvals`、`change_requests`、`audit_logs`、`budget_events`
 
 ## 6. 并行协作设计
 
@@ -153,23 +135,13 @@
 
 ## 8. 状态推进
 
-系统采用两类节点：
+状态推进、自动节点、审批节点、预算触发和异常回退规则，统一以 `workflow_automation.md` 为准。
 
-- 自动节点：满足规则即自动推进
-- 审批节点：系统只提交申请，不能自动越过
+本文件只保留架构级原则：
 
-自动推进适用：
-
-- Planning 内部结构校验通过
-- 镜头具备最小执行条件
-- QC 通过后镜头进入可剪辑状态
-
-审批适用：
-
-- `M1`、`M2`、`M3` 冻结
-- 超预算继续推进
-- 更换工具链
-- 替换关键镜头或关键资产
+- 系统支持阶段自动推进
+- 自动推进只适用于规则明确、低风险节点
+- 冻结点、超预算、合规例外必须人工批准
 
 ## 9. 首期不做的内容
 
