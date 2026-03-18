@@ -10,7 +10,7 @@
 - 给架构师和开发者看系统怎么搭、数据怎么建、流程怎么跑
 - 给制片、QA、合规看审批、权限、预算、监控和风险控制
 
-这里现在有 8 份文档。
+这里现在有 12 份文档。
 
 ## 文档列表
 
@@ -46,6 +46,22 @@
    - 作用：定义经营指标、角色职责、审批责任和基础 SLA
    - 适合谁看：老板、项目负责人、制片负责人、运营管理者
 
+9. `api_and_event_contract.md`
+   - 作用：定义 API、异步事件、幂等键、错误响应和状态回写契约
+   - 适合谁看：后端开发、前端开发、Worker 开发
+
+10. `enum_and_state_definitions.md`
+   - 作用：统一枚举值、状态值和命名规则
+   - 适合谁看：后端开发、前端开发、Worker 开发
+
+11. `task_execution_semantics.md`
+   - 作用：定义任务状态机、运行状态机、重试规则、取消语义和失败记录要求
+   - 适合谁看：后端开发、Worker 开发、架构师
+
+12. `mirror_sync_policy.md`
+   - 作用：定义数据库与 `project/` 镜像之间的同步、导入、冲突和审计规则
+   - 适合谁看：后端开发、架构师、管理员
+
 ## 推荐阅读顺序
 
 如果你是第一次看，按这个顺序最清楚：
@@ -57,7 +73,11 @@
 5. `permissions_and_audit.md`
 6. `ops_and_security.md`
 7. `vendor_integration_spec.md`
-8. `business_kpi_and_raci.md`
+8. `api_and_event_contract.md`
+9. `enum_and_state_definitions.md`
+10. `task_execution_semantics.md`
+11. `mirror_sync_policy.md`
+12. `business_kpi_and_raci.md`
 
 ## 按角色阅读
 
@@ -114,6 +134,10 @@
 - 做权限、审批、审计实现时，使用 `permissions_and_audit.md`
 - 做环境、密钥、告警、恢复设计时，使用 `ops_and_security.md`
 - 做外部 AI 工具接入时，使用 `vendor_integration_spec.md`
+- 做接口、事件和幂等实现时，使用 `api_and_event_contract.md`
+- 做统一枚举和状态命名实现时，使用 `enum_and_state_definitions.md`
+- 做任务队列和 Worker 语义实现时，使用 `task_execution_semantics.md`
+- 做数据库与 `project/` 镜像同步实现时，使用 `mirror_sync_policy.md`
 - 做经营管理、组织协作和 KPI 设定时，使用 `business_kpi_and_raci.md`
 
 ## 说明
