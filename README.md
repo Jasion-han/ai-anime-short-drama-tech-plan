@@ -1,4 +1,4 @@
-# AI Anime Short Drama Docs
+# AI动漫短剧企划demo
 
 本仓库分为两层：
 
@@ -13,19 +13,19 @@
 默认读取顺序如下：
 
 1. `README.md`
-2. `ai-anime-short-drama-execution-spec.md`
-3. `ai-anime-short-drama-tech-plan.md`
+2. `ai-anime-short-drama-planning-demo-execution-spec.md`
+3. `ai-anime-short-drama-planning-demo.md`
 4. `project/` 下运行时文件
 
-若文档存在冲突，以 `ai-anime-short-drama-execution-spec.md` 为准。
+若文档存在冲突，以 `ai-anime-short-drama-planning-demo-execution-spec.md` 为准。
 
 ## Repo Layout
 
 ```text
 .
 ├── README.md
-├── ai-anime-short-drama-execution-spec.md
-├── ai-anime-short-drama-tech-plan.md
+├── ai-anime-short-drama-planning-demo-execution-spec.md
+├── ai-anime-short-drama-planning-demo.md
 └── project/
     ├── 00_docs/
     ├── 01_script/
@@ -114,8 +114,8 @@ change_request_log.csv
 
 关系如下：
 
-- `ai-anime-short-drama-tech-plan.md`：解释生产方法、工具链和成本逻辑
-- `ai-anime-short-drama-execution-spec.md`：约束主执行 AI 的输入输出、状态机、schema 和暂停规则
+- `ai-anime-short-drama-planning-demo.md`：解释生产方法、工具链和成本逻辑
+- `ai-anime-short-drama-planning-demo-execution-spec.md`：约束主执行 AI 的输入输出、状态机、schema 和暂停规则
 - `docs/architecture/`：定义如果公司要把这套执行方式做成内部生产系统，系统应如何设计和实现
 
 口径区别如下：
@@ -138,8 +138,8 @@ change_request_log.csv
 
 读取顺序：
 1. README.md
-2. ai-anime-short-drama-execution-spec.md
-3. ai-anime-short-drama-tech-plan.md
+2. ai-anime-short-drama-planning-demo-execution-spec.md
+3. ai-anime-short-drama-planning-demo.md
 4. project/00_docs/project_config.md
 5. project/01_script/master_script.md
 6. project/01_script/scene_list.csv
@@ -153,7 +153,7 @@ change_request_log.csv
 14. project/00_docs/delivery_checklist.md
 
 执行要求：
-- 若规则冲突，以 ai-anime-short-drama-execution-spec.md 为准
+- 若规则冲突，以 ai-anime-short-drama-planning-demo-execution-spec.md 为准
 - 严格遵守事实源优先级、状态机、schema、暂停条件和预算规则
 - 未满足启动输入时，只允许输出待确认项和建议动作
 - 冻结点后的修改必须先写 change_request_log.csv

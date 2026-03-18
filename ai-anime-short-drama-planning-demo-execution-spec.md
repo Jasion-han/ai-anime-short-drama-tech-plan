@@ -1,4 +1,4 @@
-# AI 动漫短剧执行规范
+# AI动漫短剧企划demo 执行规范
 
 更新日期：2026-03-18
 
@@ -8,7 +8,7 @@
 
 本文件不是方法论介绍，也不是工具汇总说明。
 
-上位参考文档为 `ai-anime-short-drama-tech-plan.md`。
+上位参考文档为 `ai-anime-short-drama-planning-demo.md`。
 
 当上位文档中的描述性建议与本文件中的执行性规则冲突时，以本文件为准。
 

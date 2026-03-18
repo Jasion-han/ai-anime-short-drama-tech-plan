@@ -17,8 +17,8 @@
 这组文档和仓库根目录文档不是同一层。
 
 - `README.md`：仓库入口，定义当前仓库怎么读、怎么试跑、运行文件放哪里
-- `ai-anime-short-drama-tech-plan.md`：上位技术方案，解释生产方法、工具链和成本逻辑
-- `ai-anime-short-drama-execution-spec.md`：主执行 AI 操作规范，约束输入输出、状态机、schema 和暂停规则
+- `ai-anime-short-drama-planning-demo.md`：上位技术方案，解释生产方法、工具链和成本逻辑
+- `ai-anime-short-drama-planning-demo-execution-spec.md`：主执行 AI 操作规范，约束输入输出、状态机、schema 和暂停规则
 - `docs/architecture/`：内部生产系统实现方案，面向架构设计、开发落地、运维治理和多人协作
 
 默认理解方式如下：
