@@ -1,59 +1,59 @@
-# Delivery Checklist
+# 交付检查清单
 
-## 1. Script Lock
+## 1. 剧本锁定
 
-- `master_script.md` has a locked version number
-- all dialogue lines are finalized
-- scene order is finalized
-- shot IDs are stable
+- `master_script.md` 已有锁定版本号
+- 所有对白已最终确认
+- 场次顺序已固定
+- 镜头编号已稳定
 
-## 2. Visual Lock
+## 2. 视觉锁定
 
-- main characters have fixed reference packs
-- main locations have approved background references
-- key props have dedicated references
-- style bible has been reviewed
+- 主角色已有固定参考图包
+- 主场景已有批准通过的背景参考
+- 关键道具已有独立参考图
+- 风格设定文档已审阅
 
-## 3. Shot Production
+## 3. 镜头生产
 
-- every planned shot has a status
-- every accepted shot has a selected take
-- failed shots are marked for regenerate or patch
-- all final shot files are mapped to `shot_id`
+- 每个计划镜头都有状态标记
+- 每个入选镜头都有 `selected take`
+- 失败镜头已标记为重生或后期修补
+- 所有最终镜头文件都已映射到 `shot_id`
 
-## 4. Audio
+## 4. 音频
 
-- dialogue is exported line-by-line
-- voice tone matches scene emotion
-- lip-sync shots are identified
-- SFX pass is complete
-- music pass is complete
+- 对白已按句导出
+- 声线与场景情绪一致
+- 口型镜头已识别完成
+- 音效层已完成
+- 音乐层已完成
 
-## 5. Edit
+## 5. 剪辑
 
-- rough cut approved
-- final cut approved
-- subtitle timing checked
-- audio levels checked
-- color consistency reviewed
+- 粗剪已通过
+- 成片剪辑已通过
+- 字幕时间轴已检查
+- 音量平衡已检查
+- 画面色调一致性已复核
 
-## 6. Export
+## 6. 导出
 
-- master export rendered
-- platform ratio exports rendered
-- clean version rendered if needed
-- captioned version rendered if needed
+- 主母版已导出
+- 平台画幅版本已导出
+- 如有需要，无字幕版已导出
+- 如有需要，带字幕版已导出
 
-## 7. Compliance
+## 7. 合规
 
-- no unauthorized voice cloning
-- no direct imitation of protected IP characters
-- asset provenance log updated
-- tool/model versions recorded
+- 未使用未授权声音克隆
+- 未直接模仿受保护 IP 角色形象
+- 资产来源记录已更新
+- 工具和模型版本已记录
 
-## 8. Archive
+## 8. 归档
 
-- project files backed up
-- prompt versions saved
-- final assets organized
-- release package prepared
+- 项目文件已备份
+- Prompt 版本已保存
+- 最终资产已整理
+- 发布包已准备完成

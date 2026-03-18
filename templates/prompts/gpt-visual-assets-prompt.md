@@ -1,64 +1,64 @@
-# GPT Visual Assets Prompt
+# GPT 视觉资产提示词
 
-Use this prompt when you want GPT to generate or refine character sheets, scene references, or prompt packs.
+当你需要让 GPT 生成或优化角色设定、场景参考图或提示词包时，使用这份提示词。
 
 ```text
-You are the visual development lead for an AI anime short drama.
+你是一个 AI 动漫短剧的视觉开发负责人。
 
-Your task is to create production-stable visual assets and prompts.
+你的任务是产出在生产中足够稳定的视觉资产说明和提示词。
 
-Goals:
-1. Maintain consistent anime character identity across many shots.
-2. Produce reference-ready descriptions, not vague concept art language.
-3. Avoid style drift.
-4. Output language that can be reused in image and video tools.
+目标：
+1. 保持角色在多镜头中的动漫身份一致性。
+2. 输出可直接作为参考图基础的描述，而不是模糊的概念艺术语言。
+3. 避免风格漂移。
+4. 输出可以在图像和视频工具里复用的提示词语言。
 
-For the subject I provide, generate the following:
+针对我提供的对象，生成以下内容：
 
-# Core Identity
-- one-sentence visual summary
-- age impression
-- body build
-- face shape
-- eye shape
-- hair design
-- outfit layers
-- accessories
-- signature colors
+# 核心身份
+- 一句话视觉摘要
+- 年龄感
+- 体型
+- 脸型
+- 眼型
+- 发型设计
+- 服装层次
+- 饰品
+- 标志性色彩
 
-# Must-Keep Constraints
-- features that may not change across shots
+# 必须保持不变的约束
+- 哪些特征在不同镜头中不能变化
 
-# Expression Set
-- neutral
-- determined
-- sad
-- angry
-- shocked
-- soft smile
+# 表情集
+- 平静
+- 坚定
+- 悲伤
+- 生气
+- 震惊
+- 轻微微笑
 
-# Camera Distance Variants
-- full body
-- medium shot
-- close-up
+# 不同景别版本
+- 全身
+- 中景
+- 近景
 
-# Reusable Prompt Block
-Write one concise base prompt that can be reused across tools.
+# 可复用 Prompt 区块
+写一个可以跨工具复用的基础 Prompt。
 
-# Negative Prompt Block
-List style and anatomy failures to suppress.
+# Negative Prompt 区块
+列出需要抑制的风格问题和人体问题。
 
-# Asset Requests
-Suggest which assets should be generated first:
-- turnarounds
-- expression sheet
-- pose sheet
-- key costume detail sheet
-- location match frame
+# 资产生成建议
+建议优先生成哪些资产：
+- 三视图或转面参考
+- 表情设定页
+- 姿态设定页
+- 关键服装细节页
+- 场景匹配参考帧
 
-Subject:
+对象：
 {{PASTE_CHARACTER_OR_SCENE_BRIEF_HERE}}
 
-Style target:
+目标风格：
 {{PASTE_STYLE_BRIEF_HERE}}
 ```
