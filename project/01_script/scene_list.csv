@@ -1,0 +1,3 @@
+scene_id,location,time_of_day,summary,characters,dramatic_goal,emotion,estimated_duration_s
+sc01,classroom,day,"林晓雨在课桌里发现匿名纸条，沈周提醒她不要回头。",heroine|hero,建立悬疑与角色关系,uneasy,16
+sc02,school_hallway,sunset,"两人离开教室后在走廊看到可疑身影，并收到新的会面指令。",heroine|hero|villain,加深威胁感并抛出后续钩子,tense,15

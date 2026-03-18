@@ -1,0 +1,10 @@
+asset_id,asset_type,asset_version,source_type,source_tool,source_link,license_scope,commercial_ok,owner,notes,recorded_at
+heroine_half,character_reference,heroine_ref_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo half-body heroine reference for bootstrapping,2026-03-18T19:20:00+08:00
+heroine_hand_detail,character_reference,heroine_ref_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo hand detail heroine reference for insert shots,2026-03-18T19:20:00+08:00
+heroine_close,character_reference,heroine_ref_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo close-up heroine reference for bootstrapping,2026-03-18T19:20:00+08:00
+hero_half,character_reference,hero_ref_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo half-body hero reference for bootstrapping,2026-03-18T19:20:00+08:00
+villain_silhouette,character_reference,villain_ref_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo silhouette villain reference for suspense shots,2026-03-18T19:20:00+08:00
+classroom_bg,background_reference,classroom_bg_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo classroom background for bootstrapping,2026-03-18T19:20:00+08:00
+classroom_desk_bg,background_reference,classroom_bg_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo classroom desk insert background for bootstrapping,2026-03-18T19:20:00+08:00
+hallway_bg,background_reference,hallway_bg_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo hallway background for bootstrapping,2026-03-18T19:20:00+08:00
+hallway_stair_bg,background_reference,hallway_bg_v01,ai_generated,GPT Image 1,,pending_confirmation,false,main_ai,Demo hallway staircase background for bootstrapping,2026-03-18T19:20:00+08:00

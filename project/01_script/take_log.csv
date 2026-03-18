@@ -1,0 +1,1 @@
+take_id,shot_id,model,model_version,workflow_type,prompt,negative_prompt,seed,duration_s,aspect_ratio,ref_ids,input_asset_versions,output_path,status,failure_reason,cost,credits,selected_for_edit,operator,created_at
