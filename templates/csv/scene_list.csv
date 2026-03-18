@@ -1,0 +1,3 @@
+scene_id,location,time_of_day,summary,characters,dramatic_goal,emotion,estimated_duration_s,visual_focus,audio_notes,status,notes
+SC01,School rooftop,Sunset,"Heroine confronts hero about the missing letter","Hero;Heroine","Reveal hidden misunderstanding","Tense -> Vulnerable",35,"Wind, sunset backlight, school fence","Light wind, distant city ambience",todo,""
+SC02,Classroom,Night,"Hero reads the recovered letter alone","Hero","Emotional realization","Quiet -> Regret",28,"Desk lamp, empty classroom, close-up on letter","Clock tick, paper rustle",todo,""
